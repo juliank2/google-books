@@ -1,13 +1,13 @@
 import React from "react";
-import { URL, NavLink } from "react-router-dom";
+import { Link, } from "react-router-dom";
 import "./style.css";
-const NavBar = () => {
+const Navigate = () => {
     return (
         <React.Fragment>
             <nav className="navbar navbar-expand-lg navbar-light">
-                <URL className="navbar-brand brand-title" to="#">
+                <Link className="navbar-brand brand-title" to="#">
                     Google Books Search
-        </URL>
+        </Link>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -22,14 +22,14 @@ const NavBar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <NavLink className="nav-link heading-title" to="/search">
+                            <Link className="nav-link heading-title" to="/search">
                                 Search
-              </NavLink>
+              </Link>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link heading-title" to="/saved">
+                            <Link className="nav-link heading-title" to="/saved">
                                 Saved
-              </NavLink>
+              </Link>
                         </li>
                     </ul>
                 </div>
@@ -38,4 +38,4 @@ const NavBar = () => {
     );
 };
 
-export default NavBar;
+export default Navigate;

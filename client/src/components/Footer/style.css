@@ -1,3 +1,10 @@
 .has-background-tan {
-    background-color: #c9af98;
+  background-color: rgba(53, 53, 53, 0.781);
+  height: 135px;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 34px;
+  letter-spacing: 0.1em;
+  margin-top: 170px;
+  text-align: center
   }

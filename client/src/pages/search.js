@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { toast } from "react-toastify";
-import Book from "../components/Book/index";
-import SearchForm from "../components/SearchForm/index";
+import Book from "../components/Books/index";
+import SearchForm from "../components/FormSearch/formsearch";
 import { List } from "../components/List/index";
-import API from "../utils/API";
+import API from "../utilities/API";
 
 class Search extends Component {
     state = {
@@ -66,7 +66,7 @@ class Search extends Component {
                             <div className="order-sm-2 p-2 bd-highlight">
                                 <img
                                     className="image-250"
-                                    src="/images/img-books-window.jpg"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSct4vYJt1kT7ObwhURlnjh3o04iaDieha4UwEVce4r9WTTXlvv"
                                     alt="React Google Books Search"
                                 />
                             </div>
