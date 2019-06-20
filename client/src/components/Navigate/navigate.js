@@ -8,7 +8,7 @@ const Navigate = () => {
                 <Link className="navbar-brand brand-title" to="#">
                     Google Books Search
         </Link>
-                <button
+                {/* <button
                     className="navbar-toggler"
                     type="button"
                     data-toggle="collapse"
@@ -18,7 +18,7 @@ const Navigate = () => {
                     aria-label="Toggle navigation"
                 >
                     <span className="navbar-toggler-icon" />
-                </button>
+                </button> */}
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
